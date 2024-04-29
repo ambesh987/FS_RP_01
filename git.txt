@@ -1,0 +1,52 @@
+<!-- to install git -->
+just download https://git-scm.com/ 
+
+after installing, check in command prompt "git --version"
+
+after checking, come to vs code type ctrl+shift+p and type "git" if git:clone or other properties exist, it means correctly installed.
+
+after this click on 3 dots in vs code, select terminal ->new terminal and check if bash exists or not.
+
+
+
+<!-- git commands -->
+
+1. Initilization:
+
+git init
+it initializes a git repository in the current directory
+
+
+2. cloning:
+git clone <repository url>
+
+git clone https://github.com/ambesh987/FS_RP_01.git
+
+3. adding and commiting
+
+git add <file>
+git add .
+git commit -m "message"
+
+4. view changes:
+
+git status
+git diff
+
+5. branching
+
+git branch
+git branch <branch_name>
+git checkout <branch_name>
+
+6. merging
+
+git merge <branch_name>
+
+7. Remote operations:
+
+git remote add <name> <url>
+
+git push
+
+git pull

@@ -1,0 +1,39 @@
+.para1{
+    color:purple;
+}
+
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight:700;
+    color:#333;
+    /* background-image: url('apple.png'); */
+    text-align: center;
+    border:1px solid black;
+    height:300px;
+    /* width:100%; */
+
+    /* margin-top:50px;
+    margin-right:50px;
+    margin-bottom:10px;
+    margin-left:50px; */
+
+    /* margin:10px;   for all sides  */
+    /* margin: 10px 20px;1st one for top and bottom, 2nd one forleft and right */
+    /* margin: 10px 20px 10px; // 1st one for top, 20px for left and right, 10px for bottom */
+    /* margin: 10px 20px 15px 25px; // top, right, bottom, left */
+}
+.para2{
+    border:1px solid black;
+    width: 100%;
+    
+}
+
+@media screen and (max-width:600px){
+    .para2{
+        width:70%;
+        color:red;
+        background-color: aquamarine;
+    }
+}
+
